@@ -8,22 +8,65 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
 }
 
 .container{
+    margin-left: 475px;
     padding: 30px;
-    border-radius: 5px;
-    margin-top: 21px;
+    width: 1000px;
+}
+
+.logo{
+    border-top: 1px solid rgb(229, 229, 229);
+    margin: 5%;
+    padding: 3%;
+    border-bottom: 1px solid rgb(229, 229, 229);
 }
 
 .center-title{
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+}
+
+.collection{
+    box-shadow: 5px solid gray;
+    margin-bottom: 5%;
+}
+
+.collection-detail{
+    line-height: 100%;
+}
+
+.collection-price{
+    font-weight: 100;
+}
+
+.collection-info{
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.collection-info p{
+    margin-left: 25px;
+}
+
+.fa-solid.filled{
+    color: orange;
+}
+
+.collection-infos p{
+    line-height: 30%;
+    color: gray;
 }
 
 .next{
@@ -31,6 +74,42 @@ main{
     justify-content: end;
     display: flex;
     align-items: center;
+    margin-top: 15%;
+}
+
+.bonus{
+    margin: 20px 200px 50px 400px;
+    width: 1200px;
+}
+
+.bonus-elements{
+    display: flex;
+}
+
+.bonus-info{
+    margin-left: 8%;
+}
+
+.bonus-info h1{
+    font-size: 2em;
+}
+
+.bonus-info p{
+    font-weight: 500;
+}
+
+.button{
+    justify-content: center;
+    height: 15%;
+    width: 25%;
+    background-color: #E02C6D;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
 }
 
 .footer{
@@ -45,4 +124,13 @@ main{
 .footer-text{
     padding-top: 3em;
     line-height: 2vh;
+}
+
+.footer-text h4{
+    font-weight: 500;
+}
+
+.footer-icon .fa-brands{
+    margin-bottom: 2%;
+    padding: 0.5%;
 }
