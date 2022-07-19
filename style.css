@@ -90,7 +90,8 @@ main{
 }
 
 .collection{
-    box-shadow: 5px solid gray;
+    padding: 15px;
+    box-shadow: 5px 5px 25px rgb(199, 199, 199);
 }
 
 .collection-detail{
@@ -124,10 +125,10 @@ main{
 
 .next{
     color: #E02C6D;
-    justify-content: end;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .bonus{
@@ -187,4 +188,10 @@ main{
 .footer-icon .fa-brands{
     margin-bottom: 2%;
     padding: 0.5%;
+}
+
+@media screen and (max-width: 688px){
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
