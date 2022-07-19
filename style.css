@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 20px 350px;
+    width: 1500px;
+}
+
+.intro-info{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+}
+
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
@@ -17,11 +31,53 @@ main{
     width: 1000px;
 }
 
+.start{
+    margin: 20px 200px 50px 200px;
+    width: 1500px;
+}
+
+.start-elements{
+    margin-left: 225px;
+    display: flex;
+    align-items: center;
+}
+
+.start-info{
+    margin-left: 5%;
+    width: 1000px;
+    margin-right: 50px;
+}
+
+.start-info h1{
+    font-size: 3em;
+    line-height: 20px;
+}
+
+.start-info p{
+    font-weight: 500;
+}
+
+a .start-button{
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 25px;
+    width: 30%;
+    height: 10%;
+    background-color: #E02C6D;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
 .logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 5px;
     border-top: 1px solid rgb(229, 229, 229);
     margin: 5%;
     padding: 3%;
     border-bottom: 1px solid rgb(229, 229, 229);
+    align-items: center;
 }
 
 .center-title{
@@ -106,6 +162,7 @@ main{
     display: flex;
     align-items: center;
     color: white;
+    cursor: auto;
 }
 
 .fa-arrow-right{
