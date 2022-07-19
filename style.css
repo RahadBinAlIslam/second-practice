@@ -27,7 +27,7 @@ main{
 .container{
     padding: 30px;
     width: 900px;
-    margin-left: 250px;
+    margin-left: 235px;
 }
 
 .start{
@@ -71,26 +71,27 @@ main{
     grid-template-columns: repeat(7, 1fr);
     grid-column-gap: 35px;
     border-top: 1px solid rgb(229, 229, 229);
-    padding: 3%;
+    padding: 25px;
     border-bottom: 1px solid rgb(229, 229, 229);
     align-items: center;
-    margin-left: 5%;
+    margin-left: 70px;
 }
 
 .center-title{
     text-align: center;
-    margin-bottom: 5%;
-    margin-left: 10%;
+    margin-bottom: 50px;
+    margin-left: 150px;
 }
 
 .collections{
+    width: 1000px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5%;
 }
 
 .collection{
-    padding: 15px;
+    padding: 10px;
     box-shadow: 5px 5px 25px rgb(199, 199, 199);
 }
 
@@ -126,9 +127,10 @@ main{
 .next{
     color: #E02C6D;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 175px;
+    width: 1050px;
+    justify-content: flex-end;
 }
 
 .bonus{
