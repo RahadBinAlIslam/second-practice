@@ -3,15 +3,14 @@
 .intro{
     display: flex;
     justify-content: space-between;
-    margin: 20px 50px 20px 350px;
-    width: 1500px;
+    margin: 20px 50px 20px 50px;
 }
 
 .intro-info{
-    width: 500px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
+    width: 500px;
 }
 
 body{
@@ -26,24 +25,22 @@ main{
 }
 
 .container{
-    margin-left: 475px;
     padding: 30px;
-    width: 1000px;
+    width: 900px;
+    margin-left: 250px;
 }
 
 .start{
-    margin: 20px 200px 50px 200px;
+    margin: 20px 200px 50px 50px;
     width: 1500px;
 }
 
 .start-elements{
-    margin-left: 225px;
     display: flex;
     align-items: center;
 }
 
 .start-info{
-    margin-left: 5%;
     width: 1000px;
     margin-right: 50px;
 }
@@ -61,7 +58,7 @@ main{
     text-decoration: none;
     justify-content: center;
     border-radius: 25px;
-    width: 30%;
+    width: 20%;
     height: 10%;
     background-color: #E02C6D;
     display: flex;
@@ -72,17 +69,18 @@ main{
 .logo{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-column-gap: 5px;
+    grid-column-gap: 35px;
     border-top: 1px solid rgb(229, 229, 229);
-    margin: 5%;
     padding: 3%;
     border-bottom: 1px solid rgb(229, 229, 229);
     align-items: center;
+    margin-left: 5%;
 }
 
 .center-title{
     text-align: center;
     margin-bottom: 5%;
+    margin-left: 10%;
 }
 
 .collections{
@@ -93,7 +91,6 @@ main{
 
 .collection{
     box-shadow: 5px solid gray;
-    margin-bottom: 5%;
 }
 
 .collection-detail{
@@ -134,7 +131,7 @@ main{
 }
 
 .bonus{
-    margin: 20px 200px 50px 400px;
+    margin: 20px 200px 50px 200px;
     width: 1200px;
 }
 
